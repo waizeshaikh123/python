@@ -4,7 +4,11 @@
 # empty = {''}
 # print(type(empty))
 
-city = {"Berlin", "tokyo", "japan", "New york"}
-city2 = {"tokyo", "dubai" , "america", "japan"}
-city.update(city2)
-print(city)
+# city = {"Berlin", "tokyo", "japan", "New york"}
+# city2 = {"tokyo", "dubai" , "america", "japan"}
+# city.update(city2)
+# print(city)
+
+Cites = {"NYC","America","China","NYC","Pakistan","india"}
+ci = Cites.union()
+print("Union : ", ci)

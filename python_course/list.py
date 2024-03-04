@@ -1,9 +1,19 @@
-# name = ["waize", "zohaib" , "sabtain" , "sahil", "baqir", "fayaz"]
+name = [1,2,3,4,6,7,9,0,6,4,7]
 # # number = [2,3,5,6,89,5,6,7,8,0] 
-# # print(name.append("waize"))
+# name.append("arish")
+# name.sort()
+# name.reverse()
+# name.index("waize")
+# print(name.count(4))
+# l = (name.copy())
+# l[9] = 3
+# print(l)
 # # print(type(name))
 # # print(name[1:6:3])
-# # (name.insert(4 , "kaka"))
+# name.insert(1, 3)
+m = [99,999,88]
+m.extend(name)
+print(m)
 # ini = input(name)
 # if ini in name:
 #     print("Yes")
@@ -24,5 +34,5 @@
 #         break
 
 #  ############## list comprehensive
-li = [i for i in range(11) if i%2==0]
-print(li)
+# li = [i for i in range(11) if i%2==0]
+# print(li)

@@ -26,12 +26,10 @@ print(m)
 #     if i%2==0:
 #         print(i)
         
-# table = int(input("Enter the number: "))
+table = int(input("Enter the number: "))
 
-# for i in range(1,11):
-#     print(table,"X", i ,"=",table*i)
-#     if table%2 == 0:
-#         break
+for i in range(1,11):
+    print(table,"X", i ,"=",table*i)
 
 #  ############## list comprehensive
 # li = [i for i in range(11) if i%2==0]

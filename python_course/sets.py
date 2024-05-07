@@ -9,6 +9,8 @@
 # city.update(city2)
 # print(city)
 
-Cites = {"NYC","America","China","NYC","Pakistan","india"}
-ci = Cites.union()
-print("Union : ", ci)
+Cites = {"NYC","America",4,"NYC","Pakistan",False}
+print(Cites.issuperset(Cites))
+
+for val in Cites:
+    print(type(val))

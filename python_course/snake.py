@@ -6,7 +6,7 @@ def check(compter, user):
     if (compter == 0 and user == 1):
         return -1
     if (compter == 1 and user == 2):
-        return -1
+        return -11
     if (compter == 2 and user == 0):
         return -1
     return 1

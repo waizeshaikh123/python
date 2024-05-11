@@ -2,8 +2,12 @@
 # print(dbl(4))
 
 
-# j = lambda x,y: x*x*10 / y+5
-# print(j)
+# j = lambda x: x*x*10
+# print(j(2))
+
+
+lam = lambda x:x+x
+print(lam(3))
 
 # tab = int(input("Enter the number : "))
 
@@ -12,12 +16,12 @@
 #     if i >= 6:
 #         break
 
-def home(x):
-    "how"
-    '''
-    This is Doc string
-    '''
-    print(x**3)
-home(4)
+# def home(x):
+#     "how"
+#     '''
+#     This is Doc string
+#     '''
+#     print(x**3)
+# home(4)
 
-print(home.__doc__)
+# print(home.__doc__)
